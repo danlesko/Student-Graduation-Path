@@ -1,0 +1,124 @@
+form{
+	
+	width: 620px;
+	margin: auto;
+	display: center;
+	position: relative;
+	
+}
+
+/*
+Total width is actually 620px due to padding
+*/
+.group{
+	
+	width: 600px;
+	padding: 10px;
+	margin: auto;
+	background-color: #a6a6a6;
+	border-radius: 5px;
+	text-align: center;
+	display: block;
+	position: relative;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	
+}
+
+.group:hover{
+	
+	background-Color: #b3b3b3;
+	cursor: pointer;
+	
+}
+
+.group_label{
+
+	font-size: 18px;
+	
+}
+
+.dropdown_button{
+	
+	display: inline-block;
+	position: absolute;
+	left: 600px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	
+	
+}
+
+.dropdown_button i{
+	
+	position: relative;
+	font-size: 14px;
+	padding: auto;
+		
+
+
+}
+
+.menu_bar{
+	
+	padding: 0;
+	list-style-type: none;
+	text-align:center;
+	
+}
+
+
+.menu_bar li{
+
+	list-style-type:none;
+	
+}
+
+.expand_container{
+	
+	width: 620px;
+	position: relative;
+	display: none;
+	
+}
+
+.class_checkbox[type=checkbox]{
+	
+	display: none;
+	
+}
+
+.collapse_label{
+
+	display: inline-block;
+	text-align: center;
+	width:620px;
+	padding: 10px 0 10px 0;
+	font-size: 14px;
+	background-color: #bfbfbf;
+	
+}
+
+.collapse_label:hover{
+	
+	background-color: #cccccc;
+	cursor: pointer;
+	
+}
+
+.class_checkbox:checked + .collapse_label{
+	
+	background-color: grey; 
+	color: white;
+	
+}
+
+.submit_button{
+	
+	margin: 10px auto;
+	display: block;
+	
+}
