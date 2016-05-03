@@ -342,14 +342,14 @@ else {
 			<div class="headernav" >
 				<div><span class="logo" ><a alt="CMSC433: Scripting Languages - Project 1" title="CMSC433: Scripting Languages - Project 1" href="./main.php"><img src="./retrievers.jpg" height="150" /></a></span>
 				<span class="navTableCell" >
-					<h1>
+					<h2>
 				<?php
 				// this is the top navigation bar of the webpage
 				// it will display project information and group members IF there is no user logged in (validProcees = false)
 				if($validProcess == false) { ?>
-				<div class="titleCenter">
-					CMSC Student Course Advisor
-				</div>
+					</h2>
+					<h1>
+						CMSC Student Degree Auditor
 					</h1>
 				</span>
 				
