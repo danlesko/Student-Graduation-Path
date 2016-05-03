@@ -342,13 +342,15 @@ else {
 			<div class="headernav" >
 				<div><span class="logo" ><a alt="CMSC433: Scripting Languages - Project 1" title="CMSC433: Scripting Languages - Project 1" href="./main.php"><img src="./retrievers.jpg" height="150" /></a></span>
 				<span class="navTableCell" >
-					<h2>
+					<h1>
 				<?php
 				// this is the top navigation bar of the webpage
 				// it will display project information and group members IF there is no user logged in (validProcees = false)
 				if($validProcess == false) { ?>
-					Computer Science Student Graduation Path
-					</h2>
+				<div class="titleCenter">
+					CMSC Student Course Advisor
+				</div>
+					</h1>
 				</span>
 				
 				<?php
@@ -398,6 +400,7 @@ else {
 			Please enter your student information.<br/>
 			This site allows you to view your academic progress, and<br/>
 			lists recommended courses based on courses taken.<br/>
+			<div class="submissionContainer">
 			<form action="main.php" method="post" >
 				<input type="hidden" name="pr" value="2" />
 				<p>
@@ -411,6 +414,7 @@ else {
 				</p><p>
 				Phone:&nbsp;&nbsp;<input class="loginInput" type="text" id="phone" name="phone" title="Please enter your phone number. It is a 10 digit number separated by dashes in this format XXX-XXX-XXXX." value="<?php echo htmlspecialchars($_GET["phone"]); ?>" placeholder="XXX-XXX-XXXX" maxlength="12" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
 				</p>
+			</div>
 				<input class="addIt" type="submit" value="Submit" />
 			</form>
 			</h3>
