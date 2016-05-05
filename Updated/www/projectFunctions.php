@@ -191,7 +191,7 @@ function displayCourses($arrayList) {
 		echo "<div><table class=\"courseTable\" >";
 		// display each element as a row in the table
 		foreach ($arrayList as $value) {
-			echo "<tr><td>" . $value[0] . " - " . $value[1] . "</td><td><a href=\"./index.php?course=" . $value[0] . "&pr=3\"><input type=\"button\" class=\"addIt\" value=\"Delete\" title=\"Delete " . $value[0] . " from the list of courses taken.\" /></a></td></tr>\n";
+			echo "<tr><td>" . $value[0] . " - " . $value[1] . "</td><td><a href=\"./main.php?course=" . $value[0] . "&pr=3\"><input type=\"button\" class=\"addIt\" value=\"Delete\" title=\"Delete " . $value[0] . " from the list of courses taken.\" /></a></td></tr>\n";
 		}
 		echo "</table></div>";
 	}

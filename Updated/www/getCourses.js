@@ -62,7 +62,7 @@
 					if((jsonParsed[i][3]).trim() != "") {
 						newValue += "&#10;&#10;Requirements: " + jsonParsed[i][3];
 					}
-					newValue += "\" href=\"./index.php?course=" + jsonParsed[i][0] + "&pr=1\" onclick=\"displayLoading();\" >" +
+					newValue += "\" href=\"./main.php?course=" + jsonParsed[i][0] + "&pr=1\" onclick=\"displayLoading();\" >" +
 						jsonParsed[i][0] + " - " + jsonParsed[i][1] +  "</a>";
 						
 				}

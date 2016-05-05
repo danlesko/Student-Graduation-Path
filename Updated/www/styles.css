@@ -38,11 +38,13 @@
 		margin: auto;
 		text-align: center;
 	}
+
 	.mainBody {
+		
 		color: #000000;
 		width: 1050px;
 		height: 100%;
-		float: left;
+		/*float: left;*/
 		padding: 10px;
 		display: inline-block;
 		border: 3px solid silver;
@@ -288,5 +290,12 @@
 		z-index: 999;
 		background-color: rgb(0,0,0);
 		background-color: rgba(0,0,0,0.4);
+	}
+
+	.submissionContainer{
+		width: 700px;
+		padding-right: 200px;
+		margin: auto;
+		text-align: right;
 	}
 	
