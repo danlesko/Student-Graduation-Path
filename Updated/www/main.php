@@ -524,7 +524,7 @@ else {
 				for($i = 1; $i < count($priorityText); $i++) { ?>
 					<?php echo $i . ". " . $priorityText[$i]; ?><br/>
 					<div class="progress">
-						<span class="percent"><?php echo round(($worksheetCounter[$i] / $priorityMax[$i] ) * 100, 2) . "%"; ?></span>
+						<span class="percent"><?php echo round(($worksheetCounter[$i] / $priorityMax[$i] ) * 100, 2) . "% Complete"; ?></span>
 						<div class="bar" style="width: <?php echo round(($worksheetCounter[$i] / $priorityMax[$i] ) * 100, 2) . "%"; ?>;" ></div>
 					</div>
 					<?php displayCourses($worksheetCounterNames[$i]); ?>
