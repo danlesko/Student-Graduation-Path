@@ -1,0 +1,3 @@
+Project 2 Notes:
+
+-index.php changed in getCourses.js, index.php, projectFunctions.php
