@@ -401,9 +401,7 @@ div.article {
     top: 200px;
     box-sizing: border-box; /*CSS3 Feature - Critical Potential Width Issue*/
     margin: 0 auto;
-    width: 75%;
-    max-width: 1050px;
-    min-width: 800px;
+    width: 1000px;
     height: auto;
     min-height: 300px;
     padding: 30px;
