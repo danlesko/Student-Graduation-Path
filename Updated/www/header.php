@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="UTF-8">
-   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" type="text/css" href="./css/styles.css">
    <link rel="icon" type="image/png" href="./img/icon.png">
    <title>CMSC Degree Advisor</title>
 </head>

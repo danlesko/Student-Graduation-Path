@@ -315,7 +315,7 @@ if($validProcess == true) {
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="styles.css" >
+	<link rel="stylesheet" type="text/css" href="./css/styles.css" >
 	<link rel="icon" type="image/png" href="./img/icon.png" />
 	<title>CMSC Degree Advisor</title>
 <?php
@@ -323,12 +323,12 @@ if($validProcess == false) {
 	if($pr != "2") {
 		$errorMessage = ""; // only display login based error messages if pr = 2
 	}
-	// load login.js when the user is not logged in
-	echo "<script src=\"login.js\"></script>\n";
+	// load ./js/login.js when the user is not logged in
+	echo "<script src=\"./js/login.js\"></script>\n";
 }
 else {
 	/// load getCourses.php to validate the search bar and to handle the recommended courses div info
-	echo "<script src=\"getCourses.js\"></script>\n";
+	echo "<script src=\"./js/getCourses.js\"></script>\n";
 }
 ?>
 </head>
