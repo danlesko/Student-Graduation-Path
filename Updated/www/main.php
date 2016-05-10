@@ -443,6 +443,7 @@ else {
 			<button id="showHelp" class="helpButton" title="Click The Show / Hide Buttons To Display Help Info">Show</button><br>
 			<button id="hideHelp" class="helpButton" title="Click The Show / Hide Buttons To Display Help Info">Hide</button>
 		</div>
+			<!-- JQuery widget that displays / hides help information whenever the you click the correct buttons-->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 			<script>
 			$(document).ready(function(){
